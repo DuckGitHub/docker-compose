@@ -14,3 +14,5 @@ services:
     container_name: mymongodb
     image: mongo
     ports: ["27018:27017"]
+    logging:
+      driver: none
